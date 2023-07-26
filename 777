@@ -1,0 +1,35 @@
+/* 展示用户信息的卡片 */
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* 用户头像 */
+.card img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+/* 用户名 */
+.card h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* 用户gitee连接 */
+.card a {
+    display: block;
+    text-align: center;
+    color: #999;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* 展示文章数目的面板 */
+.card .counter {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
