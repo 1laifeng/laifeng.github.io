@@ -1,0 +1,21 @@
+blog_list.html
+        <!-- 右侧内容详情 -->
+        <div class="container-right">
+            <!-- 每篇博客包含标题，摘要，时间 -->
+            <div class="blog">
+                <div class="title">我的第一篇博客</div>
+                <div class="date">2022-06-23</div>
+                <div class="desc">
+                    关注Stella_sss，一起学编程！Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam voluptatum dolore suscipit quasi temporibus hic nemo aut voluptate eos impedit, quis repellendus doloribus sapiente similique veritatis atque aspernatur esse.
+                </div>
+                <a href="blog_content.html?blogId=1" class="detail">查看全文 &gt;&gt;</a>
+            </div>
+            <div class="blog">
+                <div class="title">我的第二篇博客</div>
+                <div class="date">2022-07-23</div>
+                <div class="desc">
+                    关注Stella_sss，一起学编程！Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam voluptatum dolore suscipit quasi temporibus hic nemo aut voluptate eos impedit, quis repellendus doloribus sapiente similique veritatis atque aspernatur esse.
+                </div>
+                <a href="blog_content.html?blogId=2" class="detail">查看全文 &gt;&gt;</a>
+            </div>
+        </div>
