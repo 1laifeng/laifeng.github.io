@@ -1,0 +1,7 @@
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 左侧个人信息 -->
+        <div class="container-left"></div>
+        <!-- 右侧内容详情 -->
+        <div class="container-right"></div>
+    </div>
