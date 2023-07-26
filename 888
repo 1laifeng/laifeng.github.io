@@ -1,0 +1,30 @@
+/* 页面内容  版心 */
+.container {
+    /* 使用 calc 计算高度 */
+    height: calc(100% - 50px);
+    /* 设置版心宽度 */
+    width: 1000px;
+    /* 水平居中 */
+    margin: 0 auto;
+    /* 使用弹性布局 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 左侧部分，用来放置用户信息 */
+.container-left {
+    height: 100%;
+    width: 200px;
+}
+
+/* 右侧部分，用来放置正文 */
+.container-right {
+    height: 100%;
+    /* 和左侧部分中间留出50px间隙 */
+    width: 795px;
+    /* 若内容溢出则自动加上滚动条 */
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
